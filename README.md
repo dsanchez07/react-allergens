@@ -1,38 +1,30 @@
-This project was bootstrapped with [Create React Library](https://github.com/dimimikadze/create-react-library).
+# React Allergens
+Ready to use SVG components of allergens for React!
 
-All library files are located inside **src/lib** folder.
+## Installation
 
-Inside **src/demo** folder, you can test your library while developing.
+### Yarn
+```bash
+yarn add react-allergens
+```
 
-## Available Scripts
+## Usage
+```jsx
+import { FishIcon } from 'react-allergens';
 
-In the project directory, you can run:
+const HomePage = () => {
+    return <FishIcon />
+}
+```
 
-### `npm start` or `yarn start`
+## Props
+| Key         | Default               | Notes                           |
+| ----------- | --------------------- | ------------------------------- |
+| `width`     | `200px`               |                                 |
+| `height`    | `200px`               |                                 |
+| `innerColor`| `white`               |                                 |
+| `outerColor`| `default icon color`  |                                 |
 
-Runs the library in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## The icons
+![image](https://user-images.githubusercontent.com/8389685/93021038-d435da80-f5e0-11ea-9385-2a42968d4697.png)
 
-### `npm run test` or `yarn run test`
-
-Runs the test watcher in an interactive mode.
-
-### `npm run build` or `yarn build`
-
-Builds the library for production to the `build` folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-### `npm publish`
-
-Publishes the library to NPM.
-
-## Typescript
-
-[Adding Typescript support](https://gist.github.com/DimiMikadze/f25e1c5c70fa003953afd40fa9042517)
-
-## Troubleshooting
-
-### Usage of other libraries within your library
-
-- Add the library as a peer dependency in package.json (effectively requiring the calling project to provide this dependency)
-- Add the library as a dev dependency in package.json (effectively allowing this library to successfully build without complaining about not having this dependency)
-- Add the library to the externals config in your webpack.config file(s). By default, only react and react-dom are there, meaning that those are the only two libraries that you can use within your new shared library.
