@@ -1,4 +1,4 @@
-# React Allergens
+# React Allergens
 Ready to use SVG components of allergens for React!
 
 ## Installation
