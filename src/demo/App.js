@@ -27,7 +27,7 @@ const App = () => (
     <GlutenIcon width={100} height={100} />
     <CrustaceanIcon width={100} height={100} />
     <EggIcon width={100} height={100} />
-    <FishIcon width={100} height={100} />
+    <FishIcon width={100} height={100} wrapperStyle={{ float: 'left' }} />
     <PeanutIcon width={100} height={100} />
     <SoyaIcon width={100} height={100} />
     <MilkIcon width={100} height={100} />
