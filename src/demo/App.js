@@ -19,9 +19,9 @@ import {
 const App = () => (
   <div
     style={{
-      display: 'grid',
+      display: 'flex',
       gap: '1rem',
-      gridAutoFlow: 'column',
+      flexFlow: 'row wrap',
     }}
   >
     <GlutenIcon width={100} height={100} />
