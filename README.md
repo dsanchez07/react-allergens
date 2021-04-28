@@ -15,8 +15,12 @@ yarn add react-allergens
 ```jsx
 import { FishIcon } from 'react-allergens';
 
-const HomePage = () => {
+const Example = () => {
   return <FishIcon />;
+};
+
+const ExampleProps = () => {
+  return <FishIcon width={100} height={100} wrapperStyle={{ float: 'left' }} />;
 };
 ```
 
